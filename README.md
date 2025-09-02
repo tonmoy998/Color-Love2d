@@ -17,7 +17,7 @@ color.cyan
 
 Example :
 ```lua
-require("colorise")
+require("colorize")
 function love.draw()
   love.graphics.setColor(color.cyan)
   love.graphics.rectangle("fill", 100, 100, 200, 100)
