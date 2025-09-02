@@ -11,6 +11,26 @@ an examle:
   end
 ````
 
+Basic colors :
+color.blue
+color.cyan 
+
+Example :
+```lua
+require("colorise")
+function love.draw()
+  love.graphics.setColor(color.cyan)
+  love.graphics.rectangle("fill", 100, 100, 200, 100)
+
+  love.graphics.setColor(color.orange)
+  love.graphics.circle("fill", 400, 200, 50)
+
+  love.graphics.setColor(color.purple)
+  love.graphics.print("Hello Colors!", 100, 300)
+end
+
+```
+
 future implementations:
   -hsva
   -hsla
