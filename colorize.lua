@@ -68,3 +68,22 @@ function hex (value, a)
 
   return {r/255, g/255, b/255, a}
 end
+
+--Basic colors
+color = {
+  white     = rgba(255, 255, 255),
+  black     = rgba(0, 0, 0),
+  red       = rgba(255, 0, 0),
+  green     = rgba(0, 255, 0),
+  blue      = rgba(0, 0, 255),
+  cyan      = rgba(0, 255, 255),
+  magenta   = rgba(255, 0, 255),
+  yellow    = rgba(255, 255, 0),
+  orange    = rgba(255, 165, 0),
+  pink      = rgba(255, 192, 203),
+  purple    = rgba(128, 0, 128),
+  brown     = rgba(139, 69, 19),
+  gray      = rgba(128, 128, 128),
+  lightgray = rgba(211, 211, 211),
+  darkgray  = rgba(64, 64, 64),
+}
