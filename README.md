@@ -2,7 +2,7 @@
 this library for lua help to load a array of r[1], g[2], b[3], a[4] for implement colors in your project
 an examle:
 ````lua
-  require("colorized")
+  require("colorize")
   love.draw()
     love.graphics.setBackgroundColor(hex("#fff")) --this will go turn the background into white and 1 of alpha
     love.graphics.setColor(rgba(255, 140, 10)) --a type of orange i think
